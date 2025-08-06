@@ -1,4 +1,5 @@
 --from hon not mine
+if not identifyexecutor() == "Bunni" or not getexecutorname() == "Bunni" then return end
 local textService = cloneref(game:GetService("TextService"));
 local fonts = {
 	Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal),
