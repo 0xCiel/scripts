@@ -1,5 +1,4 @@
 --from hon not mine
-if identifyexecutor() == "Bunni" or getexecutorname() == "Bunni" then
 local textService = cloneref(game:GetService("TextService"));
 local fonts = {
 	Font.new("rbxasset://fonts/families/Arial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal),
@@ -785,4 +784,3 @@ genv.setrenderproperty = newcclosure(function(x, y, z)
     _assert(_isrenderobj(x), _stringformat("invalid argument #1 to 'setrenderproperty' (Drawing expected, got %s)", _typeof(x)));
     x[y] = z;
 end);
-end
