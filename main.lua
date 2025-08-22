@@ -121,7 +121,10 @@ local SupportedGames = {
     Archived = {
         ids = {
             99831550635699,
-            14038329225
+            14038329225,
+            103668683568092,
+            110059584602949,
+            120385351511202
         },
         script = "https://raw.githubusercontent.com/0xCiel/scripts/refs/heads/main/archived.lua"
     }
