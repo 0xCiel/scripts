@@ -1,4 +1,8 @@
-if identifyexecutor():find("Bunni") then loadstring(game:HttpGet("https://raw.githubusercontent.com/0xCiel/scripts/refs/heads/main/fixes/drawingAPIfix.lua"))() end
+if identifyexecutor():find("Bunni") then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/0xCiel/scripts/refs/heads/main/fixes/drawingAPIfix.lua"))(
+
+    )
+end
 local SupportedGames = {
     RogueBlox = {
         ids = {
@@ -9,7 +13,8 @@ local SupportedGames = {
             16850025301,
             16857291886,
             18842701736,
-            78405841523354},
+            78405841523354
+        },
         script = "https://raw.githubusercontent.com/0xCiel/scripts/refs/heads/main/rogueblox.lua"
     },
     TypeSoul = {
@@ -78,7 +83,8 @@ local SupportedGames = {
             133427200412304,
             138059541435332,
             139786130224667,
-            140430392513905},
+            140430392513905
+        },
         script = "https://raw.githubusercontent.com/0xCiel/scripts/refs/heads/main/typesoul.lua"
     },
     Deepwoken = {
@@ -111,6 +117,13 @@ local SupportedGames = {
             70979303281827
         },
         script = "https://raw.githubusercontent.com/0xCiel/deepwokenscript/refs/heads/main/main.lua"
+    },
+    Archived = {
+        ids = {
+            99831550635699,
+            14038329225
+        },
+        script = "https://raw.githubusercontent.com/0xCiel/scripts/refs/heads/main/archived.lua"
     }
 }
 
@@ -123,7 +136,8 @@ local function Load()
         end
     end
     return loadstring(
-        game:HttpGet("https://raw.githubusercontent.com/0xCiel/scripts/refs/heads/main/CielUniversal.lua"))()
+        game:HttpGet("https://raw.githubusercontent.com/0xCiel/scripts/refs/heads/main/CielUniversal.lua")
+    )()
 end
 
 Load()
