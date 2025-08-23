@@ -127,6 +127,14 @@ local SupportedGames = {
             120385351511202
         },
         script = "https://raw.githubusercontent.com/0xCiel/scripts/refs/heads/main/archived.lua"
+    },
+ HEIAN = {
+        ids = {
+            14773491200,
+            18677118023,
+            138234680258401,
+        },
+        script = "https://raw.githubusercontent.com/0xCiel/scripts/refs/heads/main/heian.lua"
     }
 }
 
