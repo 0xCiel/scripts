@@ -13,7 +13,8 @@ local SupportedGames = {
             16850025301,
             16857291886,
             18842701736,
-            78405841523354
+            78405841523354,
+            105363382526961
         },
         script = "https://raw.githubusercontent.com/0xCiel/scripts/refs/heads/main/rogueblox.lua"
     },
